@@ -1,0 +1,146 @@
+
+h1{
+    text-align: center;
+}
+/* CÀI ĐẶT CHUNG CHO HIỂN THỊ DANH SÁCH (SP, NV, LOAISP, NSX,...)*/
+.table{
+    height: 400px;
+    overflow: auto;
+  }
+  #chung{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  #chung thead{
+    position: sticky;
+    top: 0;
+  }
+  #chung td, #chung th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+    
+  #chung tr:nth-child(even){background-color: #f2f2f2;}
+    
+  #chung tr:hover {background-color: #ddd;}
+    
+  #chung th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+  }
+  .btn{
+    text-align: center;
+    width: 150px;
+  }
+  .btn div{
+    display: flex;
+    justify-content: space-around;
+  }
+  .btn button{
+    width: 100%;
+    font-size: 16px;
+  }
+  .btn button:hover{
+    background-color: #e4480b;
+  }
+  
+  .themsanpham{
+    margin-top: 20px;
+  }
+  .themsanpham a{
+    padding: 10px;
+    background-color: #04AA6D;
+    text-decoration: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .themsanpham a:hover{
+    background-color: #00fea1;
+    color: black;
+  }
+/* CÀI ĐẶT CHUNG CHO PHẦN THÊM (SP, LOAISP, NSX, NV, QTV,..)*/
+.main{
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+.caidat{
+    display: flex;
+    /* justify-content: center; */
+    justify-content: space-around;
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type=email], input[type=password]
+  {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+input[type=file]
+{
+    width: 100%;
+    padding: 10px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+textarea{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.main button[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+.main button[type=submit]:hover {
+    background-color: #45a049;
+}
+/* CÀI ĐẶT CHUNG CHO NÚT TRỞ VỀ (THÊM)*/
+.hienthi{
+    margin-top: 20px;
+}
+.hienthi a{
+    padding: 10px;
+    background-color: #04AA6D;
+    text-decoration: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+  .hienthi a:hover{
+    background-color: #00fea1;
+    color: black;
+}

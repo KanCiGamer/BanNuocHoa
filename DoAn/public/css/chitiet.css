@@ -1,0 +1,67 @@
+.chitiet{
+    width: 100%;
+    background: #FFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sanpham{
+    width: 90%;
+    max-width: 750px;
+    display: flex;
+}
+.anh{
+    flex-basis: 47%;
+    background: none;
+}
+.anh img{
+    width: 100%;
+    display: block;
+    padding-top: 100px;
+}
+.thongtin{
+    flex-basis: 80%;
+    background: local;
+    padding: 40px;
+    padding-left: 60px;
+    font-size: 13px;
+    font-weight: 500;
+
+}
+.thongtin h1{
+    color: black;
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+.thongtin h2{
+    color: black;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.thongtin .form{
+    font-size: 15px;
+    font-weight: 400;
+}
+.thongtin form{
+    margin-top: 35px;
+}
+form a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 17px;
+    background-color: black;
+    width: 100%;
+    padding: 10px 80px;
+    border-radius: 30px;
+    border: 0;
+    outline: 0;
+    margin-top: 50px;
+    box-shadow: 0 10px 10px rgba(85, 63, 240, 0.25);
+    cursor: pointer;
+    transition: all 0.7s;
+}
+form a:hover{
+    background-color: rgb(159, 159, 159);
+    color: black;
+}
